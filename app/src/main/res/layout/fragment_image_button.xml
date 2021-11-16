@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ejtdevelopment.allinonewithnav.Fragments.ImageButton"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THIS IS SIMPLE IMAGE BUTTON"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="on click back ground color change"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/car"
+        android:background="@drawable/image_button_back_change"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="on click Tint change"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/car"
+        android:padding="10dp"
+        app:tintMode="screen"
+        app:tint="@drawable/image_button_tint_change"/>
+
+
+</LinearLayout>

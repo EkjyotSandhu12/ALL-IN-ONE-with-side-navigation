@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.ejtdevelopment.allinonewithnav.Fragments.CheckBox"
+android:orientation="vertical"
+    android:gravity="left"
+    android:layout_gravity="left">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="CheckBox View"
+    android:textSize="30dp"
+    android:background="@color/black"
+    android:textColor="@color/white"/>
+
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Background ColorChange"
+    android:background="@color/purple_500"/>
+
+
+
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Box Color Change"
+    android:buttonTint="@color/purple_500"/>
+
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:enabled="false"
+    android:text="disables"/>
+
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Check Box with Drawable"
+    android:padding="20dp"
+    android:background="@drawable/check_box_drawable_background"
+    />
+
+
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="50dp"
+    android:padding="0dp"
+    android:scaleX="1.5"
+    android:scaleY="1.5"
+    android:text="CheckBox with size" />
+
+<TextView
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="checkbox with coding"
+    android:textSize="20dp"
+    android:background="@color/black"
+    android:textColor="@color/white"/>
+
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/btn_checked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/btn_unchecked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uncheck"
+        android:textSize="12sp"/>
+
+
+
+    <Button
+        android:id="@+id/btn_enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/btn_disable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disable"
+        android:textSize="12sp"/>
+
+
+</LinearLayout>
+
+<com.google.android.material.checkbox.MaterialCheckBox
+    android:id="@+id/testCheckbox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="EXAMPLE"/>
+
+
+
+</LinearLayout>
+

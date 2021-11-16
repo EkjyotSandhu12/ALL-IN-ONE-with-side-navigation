@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ejtdevelopment.allinonewithnav.Fragments.ToggleAndSwitch"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="left"
+    android:layout_gravity="left">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton View"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/imagetest"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        />
+
+    <ToggleButton
+        android:id="@+id/Tb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="background with drawable"
+        android:textOff="background with drawable"
+        android:background="@drawable/togglebuttondrawable"
+        android:theme="@style/ToggleButton.CustomTheme"
+        />
+
+    <ToggleButton
+        android:id="@+id/Tb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="UnderLIne color"
+        android:textOff="UnderLIne color"
+        android:theme="@style/ToggleButton.CustomTheme"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SwitchButton View"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Switch
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drawable Backgound"
+        android:background="@drawable/togglebuttondrawable"
+        android:layout_marginBottom="10dp"
+        android:textSize="30dp"/>
+
+    <Switch
+        android:id="@+id/s2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Button Color"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:thumbTint="@color/teal_700"
+        android:layout_marginBottom="10dp"/>
+
+
+    <Switch
+        android:id="@+id/s3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Track Color"
+        android:textSize="30dp"
+        android:trackTint="@color/teal_700"
+        android:textColor="@color/black"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this is material switch"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

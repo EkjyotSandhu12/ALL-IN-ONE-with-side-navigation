@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/textviewmenu"
+        android:icon="@drawable/update_pic"
+        android:title="Text View"/>
+    <item
+        android:id="@+id/edittextmenu"
+        android:icon="@drawable/logout"
+        android:title="Edit Text"/>
+    <item
+        android:id="@+id/buttonviewmenu"
+        android:icon="@drawable/logout"
+        android:title="Button"/>
+    <item
+        android:id="@+id/chipsmenu"
+        android:icon="@drawable/logout"
+        android:title="Chips"/>
+    <item
+        android:id="@+id/checkboxmenu"
+        android:icon="@drawable/logout"
+        android:title="CheckBox"/>
+    <item
+        android:id="@+id/imagebuttonmenu"
+        android:icon="@drawable/logout"
+        android:title="ImageButton"/>
+    <item
+        android:id="@+id/progressbarmenu"
+        android:icon="@drawable/logout"
+        android:title="Progress Bar"/>
+    <item
+        android:id="@+id/toggleandswitchmenu"
+        android:icon="@drawable/logout"
+        android:title="Toggle/Switch"/>
+    <item
+        android:id="@+id/recycleviewmenu"
+        android:icon="@drawable/logout"
+        android:title="RecycleView"/>
+    <item
+        android:id="@+id/bottomtabmenu"
+        android:icon="@drawable/logout"
+        android:title="Bottom Tab"/>
+    <item
+        android:id="@+id/toptabmenu"
+        android:icon="@drawable/logout"
+        android:title="Top Tab"/>
+</menu>

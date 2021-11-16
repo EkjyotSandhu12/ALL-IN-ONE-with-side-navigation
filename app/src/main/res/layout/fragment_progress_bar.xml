@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ejtdevelopment.allinonewithnav.Fragments.ProgressBar"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Horizontal Progress bar"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XML all possible Customination"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+
+    <ProgressBar
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:background="@color/teal_700"
+        android:progressTint="@color/black"
+        android:progressBackgroundTint="@color/white"
+        android:secondaryProgressTint="@color/purple_200"
+        android:progress="50"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drawable Customization"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+
+    <ProgressBar
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:background="@drawable/horizontalprogress_bar_drawable"
+        android:progress="50"
+        android:padding="15dp"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progress Drawable Customization"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <ProgressBar
+        android:id="@+id/circle_bar"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:indeterminateOnly="false"
+        android:progress="60"
+        android:progressDrawable="@drawable/circle_progress_bar"
+        />
+
+    <Button
+        android:id="@+id/button_decr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-10" />
+
+    <Button
+        android:id="@+id/button_incr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+10"/>
+
+
+
+
+
+</LinearLayout>
